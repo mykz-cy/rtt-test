@@ -2,6 +2,8 @@
 
 This is a demo for Segger RTT integration
 
+Open modus shell (type “modus-shell” in Windows start, or open from \ModusToolbox\tools_3.4\modus-shell\Cygwin.bat or use your terminal), navigate to your folder, then:
+
 1.	git clone https://github.com/mykz-cy/rtt-test.git
 2.	cd rtt-test
 3.	make getlibs
