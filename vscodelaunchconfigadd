@@ -1,0 +1,40 @@
+			"liveWatch": {
+                "enabled": true,
+            },
+            "rttConfig": {
+                "enabled": true,
+                "clearSearch": false,
+                "address": "auto",
+
+                "decoders": [
+                    {
+                        "label": "",
+                        "port": 0,
+                        "type": "graph",
+                        "encoding": "unsigned",
+                        "graphId": "count",
+                        "scale": 1
+                    },
+                    {
+                        "port": 1,
+                        "type": "console"
+                    }
+                ]
+            },
+            "graphConfig": [
+                {
+                    "label": "Test of RTT",
+                    "timespan": 20,
+                    "type": "realtime",
+                    "annotate": true,
+                    "maximum": 255,
+                    "minimum": 0,
+                    "plots": [
+                        {
+                            "graphId": "count",
+                            "label": "value of count",
+                            "color": "#0A8276"
+                        }
+                    ]
+                }
+            ]
