@@ -1,0 +1,14 @@
+# Documentation
+images
+
+# Exports, Project settings
+.mtbLaunchConfigs
+.settings
+.vscode
+
+# Segger RTT
+$(SEARCH_RTT)/Examples
+$(SEARCH_RTT)/Syscalls/SEGGER_RTT_Syscalls_IAR.c
+$(SEARCH_RTT)/Syscalls/SEGGER_RTT_Syscalls_KEIL.c
+$(SEARCH_RTT)/Syscalls/SEGGER_RTT_Syscalls_SES.c
+# $(SEARCH_RTT)/Syscalls/SEGGER_RTT_Syscalls_GCC.c
