@@ -11,3 +11,5 @@ Open modus shell (type “modus-shell” in Windows start, or open from \ModusTo
 5.	open vscode, open the workspace from file
 6.	copy the launch config parts from the rtt-test\vscodelaunchconfigadd file into your rtt-test\.vscode\launch.json
 7.	Launch debug
+
+See ModusToolbox community post here: https://community.infineon.com/t5/ModusToolbox/Using-Segger-RTT-library-in-ModusToolbox/td-p/965434
