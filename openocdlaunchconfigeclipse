@@ -14,5 +14,5 @@
 -c "set RTT_PORT_COUNT 2"
 -c "set RTT_PORT_START 50566"
 -c "set RTT_POLL_INTERVAL 100"
--f "C:/<path to project>/eclipse-rtt/rtt-test/rtt-eclipse.tcl"
+-f "C:/<path to project>/rtt-test/rtt-eclipse.tcl"
 -c "sleep 500; init; reset init"
